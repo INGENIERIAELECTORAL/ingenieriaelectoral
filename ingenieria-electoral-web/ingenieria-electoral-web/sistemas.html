@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nuestros sistemas · Ingeniería Electoral Consultores</title>
+<meta name="description" content="Sistema de Información Electoral y App de Captura Electoral: demostración interactiva con datos sintéticos y tabla de funciones de cada producto.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/software.css">
+<script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="nav-shell">
+  <nav class="nav" aria-label="Principal" data-nav>
+    <a class="nav__brand" href="index.html" aria-label="Ingeniería Electoral Consultores · Inicio">
+      <img src="assets/img/logos/ingenieria-electoral-emblema.png" alt="" width="388" height="420">
+      <img class="nav__wordmark" src="assets/img/logos/ingenieria-electoral-wordmark.png" alt="Ingeniería Electoral Consultores" width="1400" height="291">
+    </a>
+    <button class="nav__burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú" data-burger><span></span></button>
+    <ul class="nav__menu" id="menu">
+      <li class="nav__item" data-dropdown>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="dd-soluciones">Soluciones <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+        <div class="nav__dropdown" id="dd-soluciones">
+          <a href="soluciones/index.html">Todas las soluciones <small>Qué hace cada una y cómo se implementa</small></a>
+          <a href="soluciones/mineria-de-datos.html">Minería de datos e inteligencia electoral <small>Del archivo electoral al diagnóstico territorial</small></a>
+          <a href="soluciones/operacion-territorial.html">Operación territorial <small>Organizar, registrar y supervisar el trabajo de campo</small></a>
+          <a href="soluciones/defensa-del-voto.html">Defensa del voto <small>De la integración de representantes a la jornada</small></a>
+        </div>
+      </li>
+      <li class="nav__item" data-dropdown>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="dd-sistemas">Sistemas <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+        <div class="nav__dropdown" id="dd-sistemas">
+          <a href="sistemas.html#informacion">Sistema de Información Electoral <small>Secciones, mapas, resultados y metas</small></a>
+          <a href="sistemas.html#captura">App de Captura Electoral <small>Registro, estructura y acuses desde el teléfono</small></a>
+          <a href="sistemas.html#comparativa">Funciones de cada sistema <small>Tabla comparativa</small></a>
+        </div>
+      </li>
+      <li class="nav__item" data-dropdown>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="dd-nosotros">Nosotros <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+        <div class="nav__dropdown" id="dd-nosotros">
+          <a href="index.html#quienes-somos">Quiénes somos</a>
+          <a href="index.html#historia">Nuestra historia</a>
+          <a href="index.html#equipo">Nuestro equipo</a>
+        </div>
+      </li>
+      <li class="nav__item" data-dropdown>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="dd-recursos">Recursos <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+        <div class="nav__dropdown" id="dd-recursos">
+          <a href="index.html#editoriales">Comentarios editoriales</a>
+          <a href="index.html#participaciones">Participaciones y reconocimientos</a>
+          <a href="index.html#prensa">Prensa</a>
+          <a href="index.html#preguntas">Preguntas frecuentes</a>
+        </div>
+      </li>
+      <li class="nav__item"><a class="nav__link" href="index.html#contacto">Contacto</a></li>
+      <li class="nav__item nav__cta"><a class="btn btn--primary btn--sm" href="index.html#contacto">Hablemos</a></li>
+    </ul>
+    <a class="btn btn--primary btn--sm nav__cta nav__cta--desktop" href="index.html#contacto">Hablemos</a>
+  </nav>
+</div>
+
+<main id="contenido">
+
+<section class="sw-hero wrap" aria-labelledby="titulo">
+  <div class="sw-hero__grid">
+    <div class="hero__copy">
+      <nav class="crumbs" aria-label="Ruta" style="display:flex;gap:8px;font-size:16px;color:var(--ink-2);margin-bottom:24px"><a href="index.html" style="color:var(--ink-2)">Inicio</a><span aria-hidden="true">/</span><span>Nuestros sistemas</span></nav>
+      <h1 class="h1" id="titulo">Datos electorales. <b>Trabajo de campo.</b></h1>
+      <p class="lead">Consulta resultados por sección y registra el trabajo territorial con dos herramientas desarrolladas por Ingeniería Electoral Consultores. Las dos demostraciones de esta página funcionan con datos sintéticos.</p>
+      <div class="btn-row btn-row--full">
+        <a class="btn btn--primary" href="#informacion">Explorar el sistema</a>
+        <a class="btn btn--secondary" href="#captura">Conocer la app</a>
+      </div>
+    </div>
+    <div class="sw-art reveal reveal--scale" aria-label="Vistas de los dos productos">
+      <div class="sw-art__desktop"><img src="assets/img/software/info-02-mapa.svg" alt="Interfaz del Sistema de Información Electoral con el mapa de secciones." width="1440" height="900"></div>
+      <div class="sw-art__phone"><img src="assets/img/software/app-02-ocr.svg" alt="Pantalla de captura asistida de la App de Captura Electoral." width="390" height="844"></div>
+      <span class="demo-tag">Interfaces de demostración</span>
+    </div>
+  </div>
+</section>
+
+<section id="informacion" class="product section section--line wrap" aria-labelledby="info-title">
+  <header class="product-heading reveal">
+    <h2 class="h2" id="info-title">Sistema de <b>Información Electoral.</b></h2>
+    <p>Secciones, colonias, mapas, resultados y metas. La información del territorio, organizada para su consulta.</p>
+  </header>
+  <div class="explorer reveal">
+    <div class="function-list explorer__list">
+      <div class="fn-list" role="tablist" aria-label="Funciones del Sistema de Información Electoral">
+        <button class="fn is-active" id="tab-mapa" role="tab" aria-selected="true" aria-controls="info-panel" data-mode="mapa"><strong>Mapa y secciones</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Selecciona una sección y consulta su información. Las capas cartográficas permiten ubicar el territorio dentro del ámbito de trabajo.</small></button>
+        <button class="fn" id="tab-resultados" role="tab" aria-selected="false" aria-controls="info-panel" tabindex="-1" data-mode="resultados"><strong>Resultados electorales</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Consulta la distribución de la votación por partido o candidatura y revisa su desglose territorial en las elecciones incorporadas al sistema.</small></button>
+        <button class="fn" id="tab-metas" role="tab" aria-selected="false" aria-controls="info-panel" tabindex="-1" data-mode="metas"><strong>Metas por sección</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Revisa la lista nominal, la meta del 5 % y las referencias históricas. El cálculo se realiza por sección, con redondeo al entero superior.</small></button>
+        <button class="fn" id="tab-secciones" role="tab" aria-selected="false" aria-controls="info-panel" tabindex="-1" data-mode="secciones"><strong>Consulta territorial</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Busca secciones, revisa su relación con colonias y consulta los documentos asociados al ámbito y a la sección.</small></button>
+      </div>
+      <p class="list-foot">Pasa por las funciones para conocerlas. También puedes probar los controles de la vista: buscar una sección, cambiar la capa o filtrar la tabla.</p>
+      <div class="explorer__actions">
+        <a class="btn btn--primary" href="https://wa.me/qr/2TJ7TSV745NCN1" target="_blank" rel="noopener">Solicitar una demostración</a>
+        <button type="button" class="link" data-gallery="informacion">Ver las pantallas del sistema</button>
+      </div>
+    </div>
+    <div id="info-panel" class="info-panel" role="tabpanel" aria-labelledby="tab-mapa">
+      <div class="workspace">
+        <div class="workspace-top"><div><b class="app-monogram">IE</b><strong>Información electoral</strong></div><span>Distrito de ejemplo</span><button type="button" class="expand" id="expand-info" aria-label="Ampliar la vista del sistema">Ampliar</button></div>
+        <div class="workspace-nav"><span id="workspace-mode">Mapa y secciones</span><span class="demo-dot">Datos de demostración</span></div>
+        <div class="workspace-body" id="info-content"></div>
+      </div>
+      <p class="interaction-hint" id="info-hint">Selecciona una sección del mapa.</p>
+    </div>
+  </div>
+  <div class="product-caption reveal">
+    <p>La vista general da acceso al detalle de cada sección, sus colonias y los documentos asociados. Las cifras y los contornos son de demostración; no corresponden a un ámbito real.</p>
+  </div>
+</section>
+
+<section id="captura" class="product section section--line wrap" aria-labelledby="capture-title">
+  <header class="product-heading reveal">
+    <h2 class="h2" id="capture-title">App de <b>Captura Electoral.</b></h2>
+    <p>Registro asistido o manual, estructura por sección y cobertura de representantes. Desde el teléfono del equipo de campo.</p>
+  </header>
+  <div class="capture-explorer reveal">
+    <div class="capture-copy">
+      <div class="fn-list" role="tablist" aria-label="Funciones de la App de Captura Electoral">
+        <button class="fn is-active" id="tab-lectura" role="tab" aria-selected="true" aria-controls="capture-panel" data-app="lectura"><strong>Captura asistida</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Fotografía, lectura y revisión de datos antes de guardar.</small></button>
+        <button class="fn" id="tab-estructura" role="tab" aria-selected="false" aria-controls="capture-panel" tabindex="-1" data-app="estructura"><strong>Estructura territorial</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Posiciones cubiertas y espacios disponibles por sección.</small></button>
+        <button class="fn" id="tab-representantes" role="tab" aria-selected="false" aria-controls="capture-panel" tabindex="-1" data-app="representantes"><strong>Representantes RG y RC</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Organización por zona, casilla y función.</small></button>
+        <button class="fn" id="tab-envios" role="tab" aria-selected="false" aria-controls="capture-panel" tabindex="-1" data-app="envios"><strong>Envíos y acuses</strong><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15L15 5M7 5h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><small>Del guardado local a la recepción confirmada.</small></button>
+      </div>
+      <div class="capture-explanation">
+        <p id="app-explanation">El OCR prepara los datos de la credencial para su revisión. La captura básica y la completa permiten registrar la información a mano.</p>
+        <div class="sequence" aria-label="Pasos del registro"><span id="seq-1" class="on">Lectura</span><i></i><span id="seq-2">Revisión</span><i></i><span id="seq-3">Acuse</span></div>
+        <div class="explorer__actions" style="margin-top:0">
+          <button type="button" class="btn btn--secondary btn--sm" id="reset-flow">Reiniciar recorrido</button>
+          <button type="button" class="link" data-gallery="captura">Ver las pantallas de la app</button>
+        </div>
+      </div>
+    </div>
+    <div id="capture-panel" class="capture-stage" role="tabpanel" aria-labelledby="tab-lectura">
+      <div class="stage-caption"><span>Prueba el recorrido</span><span>Datos de demostración</span></div>
+      <div class="phone">
+        <div class="phone-camera" aria-hidden="true"></div>
+        <div class="phone-status"><span>9:41</span><span class="phone-signal" aria-hidden="true">▂▄▆</span></div>
+        <div class="phone-app-bar"><span class="mini-brand">IE</span><b>Captura Electoral</b><span id="phone-online">Con señal</span></div>
+        <div class="phone-body" id="phone-content"></div>
+        <div class="phone-home" aria-hidden="true"></div>
+      </div>
+      <div class="receipt" id="receipt">
+        <span class="receipt-label">Seguimiento de captura</span>
+        <div class="receipt-state"><span class="receipt-indicator"></span><strong id="receipt-state">Por registrar</strong></div>
+        <p id="receipt-copy">Revisa los datos del ejemplo y guarda la captura.</p>
+        <div class="receipt-line"><span>Sección</span><b>1008</b></div>
+        <div class="receipt-line"><span>Módulo</span><b>Promoción</b></div>
+        <button type="button" id="toggle-network" aria-pressed="false">Probar sin conexión</button>
+      </div>
+    </div>
+  </div>
+  <div class="capture-details reveal-group">
+    <article><h3>Tres formas de capturar.</h3><p>Lectura asistida, captura básica y captura completa. El equipo elige la modalidad y revisa la información antes de guardarla.</p></article>
+    <article><h3>Secciones, zonas y casillas.</h3><p>Consulta posiciones de la estructura y espacios de representantes generales y de casilla, con titular y suplente. El registro RG/RC es organización interna y no equivale a la acreditación oficial.</p></article>
+    <article><h3>Cada envío tiene un estado.</h3><p>Identifica lo guardado en el teléfono, lo que está enviándose y lo recibido. Consulta el avance total, municipal y distrital según el corte disponible.</p></article>
+  </div>
+  <div class="product-caption reveal">
+    <p>El registro manual se conserva localmente y puede enviarse al recuperar conexión con la aplicación abierta. El OCR requiere conexión. Los estados de esta demostración son locales y se reinician al recargar la página.</p>
+    <a class="btn btn--primary" href="https://wa.me/qr/2TJ7TSV745NCN1" target="_blank" rel="noopener">Solicitar una demostración</a>
+  </div>
+</section>
+
+<section id="comparativa" class="product section section--line wrap" aria-labelledby="comp-title">
+  <div class="section-head section-head--split reveal">
+    <h2 id="comp-title">Qué hace <b>cada sistema.</b></h2>
+    <p class="lead">Funciones identificadas en cada producto. El Sistema de Información Electoral se usa en el escritorio para consultar; la App de Captura Electoral se usa en el teléfono para registrar y dar seguimiento.</p>
+  </div>
+  <div class="table-wrap reveal">
+    <table class="table">
+      <thead><tr><th scope="col">Función</th><th scope="col" class="c">Sistema de Información Electoral</th><th scope="col" class="c">App de Captura Electoral</th></tr></thead>
+      <tbody><tr><td>Consulta por ámbito autorizado (entidad, municipio, distrito, sección)</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Resumen territorial: padrón, lista nominal, secciones y composición</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Búsqueda, ordenamiento y listado de secciones</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Colonias y su relación con secciones</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Mapa con capas de municipios, distritos y colonias; panel de sección</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Resultados por partido, candidatura o coalición, con gráficas y desglose</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Metas del 5 % de la lista nominal por sección y referencias históricas</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Documentos y planos del ámbito y la sección</td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td></tr><tr><td>Acceso a módulos por cuenta, con permisos de captura y consulta</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Captura asistida con OCR seguida de revisión humana (requiere conexión)</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Captura manual básica y completa</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Estructura por sección: posiciones, ocupación y lugar de captura</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Zonas y casillas RG/RC con titular y suplente (organización interna)</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Registro local en el teléfono y envío al recuperar conexión con la aplicación abierta</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Pendientes y acuses: guardado, envío, recepción y correcciones</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Avance total, municipal y distrital según el corte disponible</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr><tr><td>Evidencia fotográfica opcional vinculada a la captura</td><td class="c"><span class="dash" aria-label="No forma parte de este sistema">—</span></td><td class="c"><span class="check" role="img" aria-label="Sí"></span></td></tr></tbody>
+    </table>
+  </div>
+  <p class="note" style="margin-top:24px">Las elecciones cargadas, los ámbitos y los catálogos se configuran para cada proyecto. Las vistas de esta página son reproducciones editoriales de las interfaces, no capturas de producción.</p>
+</section>
+
+<section class="section cta wrap" aria-labelledby="t-cta">
+  <div class="cta__grid">
+    <div class="reveal">
+      <h2 class="h2" id="t-cta">Agenda una reunión <b>con nuestro equipo.</b></h2>
+      <p class="lead" style="margin-top:24px">Podemos ayudarte a identificar qué información necesitas, cómo organizar tu estructura y qué herramientas pueden fortalecer tu operación electoral.</p>
+      <div class="btn-row btn-row--full" style="margin-top:32px">
+        <a class="btn btn--primary" href="https://wa.me/qr/2TJ7TSV745NCN1" target="_blank" rel="noopener">Agendar por WhatsApp</a>
+        <a class="btn btn--secondary" href="index.html#contacto">Ver datos de contacto</a>
+      </div>
+    </div>
+    <div class="contact__lines reveal" style="margin-top:0">
+      <div class="contact__line"><span>Teléfono</span><a href="tel:+525584144814">55 8414 4814</a></div>
+      <div class="contact__line"><span>Correo electrónico</span><a href="mailto:contacto@ingenierialectoral.com">contacto@ingenierialectoral.com</a></div>
+    </div>
+  </div>
+</section>
+
+<dialog id="gallery" aria-labelledby="gallery-title">
+  <div class="gallery">
+    <div class="gallery-top"><h2 id="gallery-title">Pantallas</h2><button type="button" class="btn btn--secondary btn--sm" id="close-gallery">Cerrar</button></div>
+    <div class="gallery-nav" id="gallery-nav"></div>
+    <div class="gallery-image" id="gallery-image"></div>
+    <p>Interfaz de demostración. Cifras y registros de ejemplo.</p>
+  </div>
+</dialog>
+
+</main>
+
+<footer class="footer" id="marca-registrada">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logos/ingenieria-electoral.png" alt="Ingeniería Electoral Consultores" width="892" height="900">
+        <p>Experiencia en territorio. Inteligencia para decidir. Tecnología para operar.</p>
+      </div>
+      <div>
+        <h4>Soluciones</h4>
+        <ul>
+          <li><a href="soluciones/mineria-de-datos.html">Minería de datos e inteligencia electoral</a></li>
+          <li><a href="soluciones/operacion-territorial.html">Operación territorial</a></li>
+          <li><a href="soluciones/defensa-del-voto.html">Defensa del voto</a></li>
+          <li><a href="soluciones/index.html#implementacion">Cómo se implementa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sistemas</h4>
+        <ul>
+          <li><a href="sistemas.html#informacion">Sistema de Información Electoral</a></li>
+          <li><a href="sistemas.html#captura">App de Captura Electoral</a></li>
+          <li><a href="sistemas.html#comparativa">Funciones de cada sistema</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Nosotros</h4>
+        <ul>
+          <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
+          <li><a href="index.html#historia">Nuestra historia</a></li>
+          <li><a href="index.html#equipo">Nuestro equipo</a></li>
+          <li><a href="index.html#editoriales">Comentarios editoriales</a></li>
+          <li><a href="index.html#participaciones">Participaciones y reconocimientos</a></li>
+          <li><a href="index.html#prensa">Prensa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/qr/2TJ7TSV745NCN1" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="tel:+525584144814">55 8414 4814</a></li>
+          <li><a href="mailto:contacto@ingenierialectoral.com">contacto@ingenierialectoral.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__mark">
+      <img src="assets/img/logos/impi.png" alt="Instituto Mexicano de la Propiedad Industrial" width="400" height="225" loading="lazy">
+      <p>Ingeniería Electoral Consultores es una marca registrada ante el Instituto Mexicano de la Propiedad Industrial. Registro 2702183 · Otorgado el 16 de mayo de 2024. <a class="link" href="https://marcia.impi.gob.mx/marcas/search/details/RM202303067556?s=cca93d57-e3b1-4fe3-80ce-b06586bffb81&amp;m=l" target="_blank" rel="noopener">Consultar registro</a></p>
+    </div>
+    <div class="footer__legal">
+      <span>© 2026 Ingeniería Electoral Consultores. Marca registrada.</span>
+      <span>Las pantallas de los sistemas son vistas de demostración con datos sintéticos.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/software.js" defer></script>
+</body>
+</html>

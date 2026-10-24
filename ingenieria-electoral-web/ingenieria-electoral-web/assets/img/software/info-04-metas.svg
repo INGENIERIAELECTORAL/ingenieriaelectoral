@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<style>text{font-family:Outfit,'DejaVu Sans',Arial,sans-serif} .num{font-variant-numeric:tabular-nums}</style>
+<rect x="0" y="0" width="1440" height="900" rx="0" fill="#fff" stroke="none"/>
+<rect x="0" y="0" width="1440" height="54" rx="0" fill="#fff" stroke="none"/>
+<path d="M0 54L1440 54" stroke="#E6E9E8" stroke-width="1"/>
+<rect x="24" y="13" width="28" height="28" rx="5" fill="#00F0A0" stroke="none"/>
+<text x="38" y="33" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">IE</text>
+<text x="64" y="34" fill="#231F20" font-size="17" font-weight="600" text-anchor="start">Sistema de Información Electoral</text>
+<text x="1160" y="33" fill="#45484A" font-size="11" font-weight="400" text-anchor="start">Vista de demostración</text>
+<text x="1366" y="33" fill="#00F0A0" font-size="12" font-weight="600" text-anchor="start">Equipo</text>
+<rect x="0" y="55" width="1440" height="62" rx="0" fill="#F4F6F5" stroke="none"/>
+<text x="28" y="80" fill="#45484A" font-size="10" font-weight="600" text-anchor="start">DISTRITO LOCAL</text>
+<text x="28" y="103" fill="#231F20" font-size="19" font-weight="600" text-anchor="start">Distrito de ejemplo</text>
+<text x="251" y="102" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">42 secciones</text>
+<rect x="1060" y="70" width="350" height="32" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="1075" y="91" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Buscar sección o colonia</text>
+<text x="35" y="150" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Resumen</text>
+<text x="135" y="150" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Secciones</text>
+<text x="235" y="150" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Colonias</text>
+<text x="335" y="150" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Mapa</text>
+<text x="435" y="150" fill="#00F0A0" font-size="13" font-weight="600" text-anchor="start">Metas</text>
+<rect x="426" y="164" width="86" height="3" rx="0" fill="#00F0A0" stroke="none"/>
+<text x="535" y="150" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Resultados</text>
+<text x="635" y="150" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Documentos</text>
+<path d="M0 168L1440 168" stroke="#E6E9E8" stroke-width="1"/>
+<path d="M28 858L1412 858" stroke="#E6E9E8" stroke-width="1"/>
+<text x="30" y="883" fill="#45484A" font-size="11" font-weight="400" text-anchor="start">Datos y territorio de demostración</text>
+<text x="1409" y="883" fill="#45484A" font-size="11" font-weight="400" text-anchor="end">Ingeniería Electoral Consultores</text>
+<text x="30" y="204" fill="#45484A" font-size="10" font-weight="600" text-anchor="start">METAS DEL ÁMBITO</text>
+<text x="30" y="240" fill="#231F20" font-size="27" font-weight="600" text-anchor="start">Meta 5%: 4,166</text>
+<rect x="30" y="267" width="263" height="92" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="48" y="294" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Lista nominal actual</text>
+<text x="48" y="334" fill="#231F20" font-size="29" font-weight="600" text-anchor="start">82,929</text>
+<rect x="310" y="267" width="263" height="92" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="328" y="294" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Secciones</text>
+<text x="328" y="334" fill="#231F20" font-size="29" font-weight="600" text-anchor="start">42</text>
+<rect x="590" y="267" width="263" height="92" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="608" y="294" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Con LN</text>
+<text x="608" y="334" fill="#231F20" font-size="29" font-weight="600" text-anchor="start">42</text>
+<rect x="870" y="267" width="263" height="92" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="888" y="294" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Sin LN</text>
+<text x="888" y="334" fill="#231F20" font-size="29" font-weight="600" text-anchor="start">0</text>
+<rect x="1150" y="267" width="263" height="92" rx="4" fill="#F4F6F5" stroke="#E6E9E8"/>
+<text x="1168" y="294" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Meta 5% total</text>
+<text x="1168" y="334" fill="#00F0A0" font-size="29" font-weight="600" text-anchor="start">4,166</text>
+<text x="30" y="402" fill="#231F20" font-size="18" font-weight="600" text-anchor="start">Referencias históricas</text>
+<rect x="30" y="428" width="448" height="129" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="50" y="455" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Meta 5%</text>
+<text x="50" y="500" fill="#00F0A0" font-size="32" font-weight="600" text-anchor="start">4,166</text>
+<text x="50" y="532" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Lista nominal actual</text>
+<rect x="497" y="428" width="448" height="129" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="517" y="455" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Referencia competir</text>
+<text x="517" y="500" fill="#00F0A0" font-size="32" font-weight="600" text-anchor="start">9,250</text>
+<text x="517" y="532" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Segundo lugar histórico</text>
+<rect x="964" y="428" width="448" height="129" rx="4" fill="#fff" stroke="#E6E9E8"/>
+<text x="984" y="455" fill="#45484A" font-size="13" font-weight="400" text-anchor="start">Referencia ganar</text>
+<text x="984" y="500" fill="#00F0A0" font-size="32" font-weight="600" text-anchor="start">13,801</text>
+<text x="984" y="532" fill="#45484A" font-size="12" font-weight="400" text-anchor="start">Primer lugar histórico + 1</text>
+<text x="30" y="606" fill="#231F20" font-size="18" font-weight="600" text-anchor="start">Metas por sección</text>
+<rect x="30" y="628" width="1380" height="36" rx="0" fill="#F4F6F5" stroke="none"/>
+<text x="44" y="651" fill="#45484A" font-size="12" font-weight="600" text-anchor="start">Sección</text>
+<text x="264" y="651" fill="#45484A" font-size="12" font-weight="600" text-anchor="start">LN actual</text>
+<text x="534" y="651" fill="#45484A" font-size="12" font-weight="600" text-anchor="start">Meta 5%</text>
+<text x="794" y="651" fill="#45484A" font-size="12" font-weight="600" text-anchor="start">Ref. 2º lugar</text>
+<text x="1084" y="651" fill="#45484A" font-size="12" font-weight="600" text-anchor="start">Ref. 1º lugar + 1</text>
+<path d="M30 710L1410 710" stroke="#E6E9E8" stroke-width="1"/>
+<text x="44" y="693" fill="#00F0A0" font-size="14" font-weight="600" text-anchor="start">1001</text>
+<text x="264" y="693" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">1,500</text>
+<text x="534" y="693" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">75</text>
+<text x="794" y="693" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">250</text>
+<text x="1084" y="693" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">490</text>
+<path d="M30 756L1410 756" stroke="#E6E9E8" stroke-width="1"/>
+<text x="44" y="739" fill="#00F0A0" font-size="14" font-weight="600" text-anchor="start">1002</text>
+<text x="264" y="739" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">1,589</text>
+<text x="534" y="739" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">80</text>
+<text x="794" y="739" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">267</text>
+<text x="1084" y="739" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">509</text>
+<path d="M30 802L1410 802" stroke="#E6E9E8" stroke-width="1"/>
+<text x="44" y="785" fill="#00F0A0" font-size="14" font-weight="600" text-anchor="start">1003</text>
+<text x="264" y="785" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">1,678</text>
+<text x="534" y="785" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">84</text>
+<text x="794" y="785" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">284</text>
+<text x="1084" y="785" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">528</text>
+<path d="M30 848L1410 848" stroke="#E6E9E8" stroke-width="1"/>
+<text x="44" y="831" fill="#00F0A0" font-size="14" font-weight="600" text-anchor="start">1004</text>
+<text x="264" y="831" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">1,767</text>
+<text x="534" y="831" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">89</text>
+<text x="794" y="831" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">301</text>
+<text x="1084" y="831" fill="#231F20" font-size="14" font-weight="400" text-anchor="start">547</text>
+</svg>
