@@ -148,14 +148,13 @@
     const c = $('[data-close]', d); if (c) c.focus();
   }));
 
-  /* ---------- FAQ ---------- */
-  $$('[data-faq] .faq__item').forEach(item => {
-    const q = $('.faq__q', item);
-    q.addEventListener('click', () => {
-      const open = !item.classList.contains('is-open');
-      item.classList.toggle('is-open', open);
-      q.setAttribute('aria-expanded', String(open));
-    });
+  /* ---------- FAQ: el acordeón nativo funciona sin script; aquí solo se sincroniza aria-expanded ---------- */
+  $$('[data-faq] details').forEach(item => {
+    const q = $('summary', item);
+    if (!q) return;
+    const sync = () => q.setAttribute('aria-expanded', String(item.open));
+    sync();
+    item.addEventListener('toggle', sync);
   });
 
   /* ---------- Carrusel de prensa ---------- */

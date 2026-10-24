@@ -16,7 +16,7 @@ assets/css/                 fonts.css (Outfit local), site.css (sitio), software
 assets/js/                  site.js (navegación, línea del tiempo, biografías, carrusel, FAQ)
                             software.js (demostración con datos sintéticos)
 assets/fonts/               Outfit 400–800 (TTF) y licencia OFL
-assets/img/                 logotipos, fotografías WebP, pantallas SVG de los sistemas
+assets/img/                 logotipos, fotografías WebP (prensa, equipo, territorio), pantallas SVG de los sistemas
 favicon.svg                 Check en rombo derivado del logotipo
 .nojekyll                   Evita el procesado Jekyll en GitHub Pages
 ```
@@ -56,3 +56,11 @@ y visitar `http://localhost:8000/`.
 
 - Las pantallas de los sistemas son reproducciones editoriales con datos sintéticos. La demostración de `sistemas.html` es local: no envía información a ningún servicio y se reinicia al recargar.
 - El sitio respeta `prefers-reduced-motion`, permite navegación por teclado en menús, pestañas, línea del tiempo, carrusel y diálogos, y no usa recursos externos: fuentes, imágenes y scripts se sirven desde el propio repositorio.
+
+## Cambios de la versión consolidada
+
+- Reconocimientos: Cumbre Miami usa la versión transparente del logotipo sobre blanco, sin placa ni marco; Napolitans conserva su logotipo original con soporte carbón limitado al área del logo. Las tarjetas tienen altura natural y los enlaces quedan junto a su descripción.
+- Preguntas frecuentes: acordeón nativo `details/summary` con las cinco respuestas completas de `faq.json` dentro del HTML; la primera abierta al cargar y las demás operables con clic y teclado, también sin JavaScript.
+- Fotografías de territorio: `reunion-formacion` en Quiénes somos, `sesion-ensenada` en Operación territorial (tarjeta del inicio y página de la solución) y `exposicion-capacitacion` en Contacto y en Defensa del voto, con encuadre completo 4:5.
+- Paleta: `--ink-3` actualizado a `#62696B` para metadatos y notas.
+- Corrección: los diálogos cerrados (visor de fotografías, biografías, galería) ya no ocupan espacio ni interceptan clics.
